@@ -13,8 +13,8 @@ const config: Config = {
         mono: ["ui-monospace", "monospace"],
       },
       boxShadow: {
-        glow: "0 0 40px -12px rgba(99, 102, 241, 0.35)",
-        card: "0 4px 24px -4px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.04)",
+        glow: "0 0 40px -12px rgba(29, 78, 216, 0.4)",
+        card: "0 4px 24px -4px rgba(0,0,0,0.4), 0 0 0 1px rgba(30, 58, 95, 0.3)",
       },
     },
   },

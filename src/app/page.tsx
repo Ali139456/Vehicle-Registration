@@ -91,7 +91,7 @@ export default function Home() {
     verified: {
       label: 'Verified',
       className: 'bg-[var(--verified-bg)] text-[var(--verified)] border-[var(--verified)]/40',
-      ring: 'stroke-emerald-500',
+      ring: 'stroke-green-500',
       icon: '✓',
     },
     suspicious: {
@@ -118,11 +118,11 @@ export default function Home() {
       <div className="relative max-w-2xl mx-auto px-4 sm:px-6 py-12 md:py-16">
         {/* Hero */}
         <header className="text-center mb-12 md:mb-14">
-          <p className="text-indigo-400/90 text-sm font-semibold tracking-wider uppercase mb-3">
+          <p className="text-blue-400/90 text-sm font-semibold tracking-wider uppercase mb-3">
             Document verification
           </p>
           <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-white">
-            VehicleRegistration<span className="text-indigo-400">.ai</span>
+            VehicleRegistration<span className="text-green-400">.ai</span>
           </h1>
           <p className="text-slate-400 mt-3 text-lg max-w-md mx-auto">
             Verify registration documents and owner identity in seconds
@@ -133,7 +133,7 @@ export default function Home() {
         <section className="rounded-2xl border border-white/[0.06] bg-[var(--surface)]/80 shadow-card backdrop-blur-sm overflow-hidden">
           <div className="p-6 md:p-8 border-b border-white/[0.06]">
             <h2 className="text-lg font-semibold text-white flex items-center gap-2">
-              <span className="w-8 h-8 rounded-lg bg-indigo-500/20 flex items-center justify-center text-indigo-400 text-sm">
+              <span className="w-8 h-8 rounded-lg bg-blue-600/20 flex items-center justify-center text-blue-400 text-sm">
                 1
               </span>
               Upload documents
@@ -179,7 +179,7 @@ export default function Home() {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-4 px-6 rounded-xl bg-indigo-500 hover:bg-indigo-600 disabled:opacity-60 disabled:cursor-not-allowed font-semibold text-white transition-all duration-200 shadow-lg shadow-indigo-500/25 hover:shadow-glow flex items-center justify-center gap-2"
+              className="w-full py-4 px-6 rounded-xl bg-blue-600 hover:bg-blue-700 disabled:opacity-60 disabled:cursor-not-allowed font-semibold text-white transition-all duration-200 shadow-lg shadow-blue-600/25 hover:shadow-glow flex items-center justify-center gap-2"
             >
               {loading ? (
                 <>
@@ -201,8 +201,8 @@ export default function Home() {
           <section className="mt-10 rounded-2xl border border-white/[0.06] bg-[var(--surface)]/80 shadow-card backdrop-blur-sm overflow-hidden">
             <div className="p-6 md:p-8 border-b border-white/[0.06]">
               <h2 className="text-lg font-semibold text-white flex items-center gap-2">
-                <span className="w-8 h-8 rounded-lg bg-emerald-500/20 flex items-center justify-center text-emerald-400 text-sm">
-                  2
+<span className="w-8 h-8 rounded-lg bg-green-500/20 flex items-center justify-center text-green-400 text-sm">
+                2
                 </span>
                 Result
               </h2>
@@ -259,7 +259,7 @@ export default function Home() {
                     className="flex items-center justify-between rounded-xl border border-white/[0.06] bg-[var(--surface-elevated)]/50 px-4 py-3"
                   >
                     <span className="text-slate-400 text-sm">{label}</span>
-                    <span className={value ? 'text-emerald-400' : 'text-red-400'}>
+                    <span className={value ? 'text-green-400' : 'text-red-400'}>
                       {value ? 'Yes' : 'No'}
                     </span>
                   </div>
